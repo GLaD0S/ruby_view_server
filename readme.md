@@ -21,7 +21,7 @@ Then go to the directory
 
 And open up this project in your favorite text editor. Follow along with instructions.
 
-
+  
 ## Committing to GIT
 
 Use this section as a reference to GIT.
