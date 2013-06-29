@@ -14,21 +14,21 @@ def time
 	end
 	yield
 end
-=begin
-def print_time
-	i = 0
-	while i < all_time.length do
-		puts all_time[i]
-		i+=1
-	end
-end
-=end
+
+
+
 puts "How many slices of time would you like to record?"
 slices = gets
 
 #bockprint = { alltime.each do |e| print e end }
 
-time { alltime.each do |e| print e end }
+time (slices) { print_time
+	i = 0
+	while i < all_time.length do
+		puts all_time[i]
+		i+=1
+	end
+}
 
 
 =begin

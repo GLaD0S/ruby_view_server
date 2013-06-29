@@ -1,3 +1,12 @@
+<%
+  def link_to(name, url)
+      return "<a href='#{url}'>#{name}</a>"
+  end
+  def para(stuff)
+    return "<p>#{stuff}</p>"
+  end
+%>
+
 <html>
   <body>
     <h1>You're using a layout</h1>
@@ -5,7 +14,7 @@
       <h3> I'm a header</h3>
       <p>Put things in the header</p>
       <a href='me.html'>Me</a>
-
+      <%= para(link_to("Best website ever", "http://www.davidbroadlick.me/film/index.php")) %>
     </p>
     <hr />
     <div>
